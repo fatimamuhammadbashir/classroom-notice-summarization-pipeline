@@ -1,0 +1,12 @@
+{
+  "sentences": [
+    "Our Year 7 science trip to the Northbridge Science Museum will take place soon.",
+    "Please return the signed permission slip to the school office."
+  ],
+  "key_dates": [],
+  "critical_instructions": [],
+  "next_steps": [
+    "Return the signed permission slip."
+  ],
+  "note": "Demonstration override that removes the dates and critical instructions; the checklist should catch this and log the failure."
+}

@@ -1,0 +1,767 @@
+{
+  "schema_version": 1,
+  "notice_id": "NTC-20261124-140945-F81EF9",
+  "source": "year7_museum_visit.txt",
+  "created_at": "2026-11-24T14:09:45Z",
+  "updated_at": "2026-11-24T14:09:45Z",
+  "input": {
+    "text": "Year 7 Science Museum Visit\n\nDear parents and guardians of Year 7 students,\n\nOur Year 7 science trip to the Northbridge Science Museum will take place on Friday 5 March 2027. Students must arrive at school by 7:45 am. The coach will leave at 8:00 am and return to school at approximately 4:30 pm.\n\nPlease return the signed permission slip to the school office by Wednesday 3 March 2027. The visit costs £8, and payment must be made by Monday 1 March 2027. Students should bring a packed lunch and a water bottle. Do not include nuts or peanut products in packed lunches. Students must wear school uniform and comfortable shoes.\n\nIf you have questions, contact the Year 7 office before the visit.",
+    "character_count": 695,
+    "word_count": 126
+  },
+  "sentences": [
+    {
+      "sentence_id": 1,
+      "paragraph": 1,
+      "text": "Year 7 Science Museum Visit",
+      "word_count": 5,
+      "is_heading": true
+    },
+    {
+      "sentence_id": 2,
+      "paragraph": 2,
+      "text": "Dear parents and guardians of Year 7 students,",
+      "word_count": 8,
+      "is_heading": false
+    },
+    {
+      "sentence_id": 3,
+      "paragraph": 3,
+      "text": "Our Year 7 science trip to the Northbridge Science Museum will take place on Friday 5 March 2027.",
+      "word_count": 18,
+      "is_heading": false
+    },
+    {
+      "sentence_id": 4,
+      "paragraph": 3,
+      "text": "Students must arrive at school by 7:45 am.",
+      "word_count": 9,
+      "is_heading": false
+    },
+    {
+      "sentence_id": 5,
+      "paragraph": 3,
+      "text": "The coach will leave at 8:00 am and return to school at approximately 4:30 pm.",
+      "word_count": 17,
+      "is_heading": false
+    },
+    {
+      "sentence_id": 6,
+      "paragraph": 4,
+      "text": "Please return the signed permission slip to the school office by Wednesday 3 March 2027.",
+      "word_count": 15,
+      "is_heading": false
+    },
+    {
+      "sentence_id": 7,
+      "paragraph": 4,
+      "text": "The visit costs £8, and payment must be made by Monday 1 March 2027.",
+      "word_count": 14,
+      "is_heading": false
+    },
+    {
+      "sentence_id": 8,
+      "paragraph": 4,
+      "text": "Students should bring a packed lunch and a water bottle.",
+      "word_count": 10,
+      "is_heading": false
+    },
+    {
+      "sentence_id": 9,
+      "paragraph": 4,
+      "text": "Do not include nuts or peanut products in packed lunches.",
+      "word_count": 10,
+      "is_heading": false
+    },
+    {
+      "sentence_id": 10,
+      "paragraph": 4,
+      "text": "Students must wear school uniform and comfortable shoes.",
+      "word_count": 8,
+      "is_heading": false
+    },
+    {
+      "sentence_id": 11,
+      "paragraph": 5,
+      "text": "If you have questions, contact the Year 7 office before the visit.",
+      "word_count": 12,
+      "is_heading": false
+    }
+  ],
+  "analysis": {
+    "audience": [
+      {
+        "text": "Year 7",
+        "sentence_id": 1
+      },
+      {
+        "text": "parents",
+        "sentence_id": 2
+      },
+      {
+        "text": "guardians",
+        "sentence_id": 2
+      },
+      {
+        "text": "students",
+        "sentence_id": 2
+      }
+    ],
+    "dates": [
+      {
+        "text": "Friday 5 March 2027",
+        "kind": "date",
+        "sentence_id": 3,
+        "position": 77,
+        "sentence": "Our Year 7 science trip to the Northbridge Science Museum will take place on Friday 5 March 2027.",
+        "normalized": "2027-03-05",
+        "specific": true
+      },
+      {
+        "text": "Wednesday 3 March 2027",
+        "kind": "date",
+        "sentence_id": 6,
+        "position": 65,
+        "sentence": "Please return the signed permission slip to the school office by Wednesday 3 March 2027.",
+        "normalized": "2027-03-03",
+        "specific": true
+      },
+      {
+        "text": "Monday 1 March 2027",
+        "kind": "date",
+        "sentence_id": 7,
+        "position": 48,
+        "sentence": "The visit costs £8, and payment must be made by Monday 1 March 2027.",
+        "normalized": "2027-03-01",
+        "specific": true
+      }
+    ],
+    "times": [
+      {
+        "text": "7:45 am",
+        "kind": "time",
+        "sentence_id": 4,
+        "position": 34,
+        "sentence": "Students must arrive at school by 7:45 am.",
+        "normalized": null,
+        "specific": true
+      },
+      {
+        "text": "8:00 am",
+        "kind": "time",
+        "sentence_id": 5,
+        "position": 24,
+        "sentence": "The coach will leave at 8:00 am and return to school at approximately 4:30 pm.",
+        "normalized": null,
+        "specific": true
+      },
+      {
+        "text": "4:30 pm",
+        "kind": "time",
+        "sentence_id": 5,
+        "position": 70,
+        "sentence": "The coach will leave at 8:00 am and return to school at approximately 4:30 pm.",
+        "normalized": null,
+        "specific": true
+      }
+    ],
+    "temporal_mentions": [
+      {
+        "text": "Friday 5 March 2027",
+        "kind": "date",
+        "sentence_id": 3,
+        "position": 77,
+        "sentence": "Our Year 7 science trip to the Northbridge Science Museum will take place on Friday 5 March 2027.",
+        "normalized": "2027-03-05",
+        "specific": true
+      },
+      {
+        "text": "Wednesday 3 March 2027",
+        "kind": "date",
+        "sentence_id": 6,
+        "position": 65,
+        "sentence": "Please return the signed permission slip to the school office by Wednesday 3 March 2027.",
+        "normalized": "2027-03-03",
+        "specific": true
+      },
+      {
+        "text": "Monday 1 March 2027",
+        "kind": "date",
+        "sentence_id": 7,
+        "position": 48,
+        "sentence": "The visit costs £8, and payment must be made by Monday 1 March 2027.",
+        "normalized": "2027-03-01",
+        "specific": true
+      },
+      {
+        "text": "7:45 am",
+        "kind": "time",
+        "sentence_id": 4,
+        "position": 34,
+        "sentence": "Students must arrive at school by 7:45 am.",
+        "normalized": null,
+        "specific": true
+      },
+      {
+        "text": "8:00 am",
+        "kind": "time",
+        "sentence_id": 5,
+        "position": 24,
+        "sentence": "The coach will leave at 8:00 am and return to school at approximately 4:30 pm.",
+        "normalized": null,
+        "specific": true
+      },
+      {
+        "text": "4:30 pm",
+        "kind": "time",
+        "sentence_id": 5,
+        "position": 70,
+        "sentence": "The coach will leave at 8:00 am and return to school at approximately 4:30 pm.",
+        "normalized": null,
+        "specific": true
+      }
+    ],
+    "actions": [
+      {
+        "text": "Students must arrive at school by 7:45 am.",
+        "sentence_id": 4,
+        "cue": "arrive"
+      },
+      {
+        "text": "The coach will leave at 8:00 am and return to school at approximately 4:30 pm.",
+        "sentence_id": 5,
+        "cue": "return"
+      },
+      {
+        "text": "Please return the signed permission slip to the school office by Wednesday 3 March 2027.",
+        "sentence_id": 6,
+        "cue": "return"
+      },
+      {
+        "text": "Students should bring a packed lunch and a water bottle.",
+        "sentence_id": 8,
+        "cue": "bring"
+      },
+      {
+        "text": "Students must wear school uniform and comfortable shoes.",
+        "sentence_id": 10,
+        "cue": "wear"
+      },
+      {
+        "text": "If you have questions, contact the Year 7 office before the visit.",
+        "sentence_id": 11,
+        "cue": "contact"
+      }
+    ],
+    "critical_instructions": [
+      {
+        "text": "Students must arrive at school by 7:45 am.",
+        "sentence_id": 4,
+        "cue": "must",
+        "reason": "contains 'must'"
+      },
+      {
+        "text": "The coach will leave at 8:00 am and return to school at approximately 4:30 pm.",
+        "sentence_id": 5,
+        "cue": "return",
+        "reason": "action 'return' with a date or deadline"
+      },
+      {
+        "text": "Please return the signed permission slip to the school office by Wednesday 3 March 2027.",
+        "sentence_id": 6,
+        "cue": "permission",
+        "reason": "contains 'permission'"
+      },
+      {
+        "text": "The visit costs £8, and payment must be made by Monday 1 March 2027.",
+        "sentence_id": 7,
+        "cue": "must",
+        "reason": "contains 'must'"
+      },
+      {
+        "text": "Do not include nuts or peanut products in packed lunches.",
+        "sentence_id": 9,
+        "cue": "do not",
+        "reason": "contains 'do not'"
+      },
+      {
+        "text": "Students must wear school uniform and comfortable shoes.",
+        "sentence_id": 10,
+        "cue": "must",
+        "reason": "contains 'must'"
+      }
+    ],
+    "next_step": {
+      "text": "Please return the signed permission slip to the school office by Wednesday 3 March 2027.",
+      "sentence_id": 6,
+      "cue": "return"
+    },
+    "has_relative_dates": false,
+    "sentence_count": 11
+  },
+  "baseline": {
+    "method": "rule-based-extractive-v1",
+    "max_sentences": 8,
+    "max_words": 220,
+    "selected_count": 8,
+    "mandatory_count": 7,
+    "word_count": 103,
+    "limit_exceeded": false,
+    "sentences": [
+      {
+        "sentence_id": 3,
+        "text": "Our Year 7 science trip to the Northbridge Science Museum will take place on Friday 5 March 2027.",
+        "word_count": 18,
+        "score": 10.4348,
+        "mandatory": true,
+        "breakdown": {
+          "keyword": 6.9348,
+          "position": 0.0,
+          "temporal": 2.5,
+          "critical": 0.0,
+          "action": 0.0,
+          "audience": 0.0,
+          "length": 1.0
+        }
+      },
+      {
+        "sentence_id": 4,
+        "text": "Students must arrive at school by 7:45 am.",
+        "word_count": 9,
+        "score": 12.9193,
+        "mandatory": true,
+        "breakdown": {
+          "keyword": 4.9193,
+          "position": 0.0,
+          "temporal": 2.5,
+          "critical": 3.0,
+          "action": 1.5,
+          "audience": 0.0,
+          "length": 1.0
+        }
+      },
+      {
+        "sentence_id": 5,
+        "text": "The coach will leave at 8:00 am and return to school at approximately 4:30 pm.",
+        "word_count": 17,
+        "score": 12.6667,
+        "mandatory": true,
+        "breakdown": {
+          "keyword": 4.6667,
+          "position": 0.0,
+          "temporal": 2.5,
+          "critical": 3.0,
+          "action": 1.5,
+          "audience": 0.0,
+          "length": 1.0
+        }
+      },
+      {
+        "sentence_id": 6,
+        "text": "Please return the signed permission slip to the school office by Wednesday 3 March 2027.",
+        "word_count": 15,
+        "score": 14.0,
+        "mandatory": true,
+        "breakdown": {
+          "keyword": 6.0,
+          "position": 0.0,
+          "temporal": 2.5,
+          "critical": 3.0,
+          "action": 1.5,
+          "audience": 0.0,
+          "length": 1.0
+        }
+      },
+      {
+        "sentence_id": 7,
+        "text": "The visit costs £8, and payment must be made by Monday 1 March 2027.",
+        "word_count": 14,
+        "score": 12.1667,
+        "mandatory": true,
+        "breakdown": {
+          "keyword": 5.6667,
+          "position": 0.0,
+          "temporal": 2.5,
+          "critical": 3.0,
+          "action": 0.0,
+          "audience": 0.0,
+          "length": 1.0
+        }
+      },
+      {
+        "sentence_id": 9,
+        "text": "Do not include nuts or peanut products in packed lunches.",
+        "word_count": 10,
+        "score": 7.182,
+        "mandatory": true,
+        "breakdown": {
+          "keyword": 3.182,
+          "position": 0.0,
+          "temporal": 0.0,
+          "critical": 3.0,
+          "action": 0.0,
+          "audience": 0.0,
+          "length": 1.0
+        }
+      },
+      {
+        "sentence_id": 10,
+        "text": "Students must wear school uniform and comfortable shoes.",
+        "word_count": 8,
+        "score": 9.9907,
+        "mandatory": true,
+        "breakdown": {
+          "keyword": 4.4907,
+          "position": 0.0,
+          "temporal": 0.0,
+          "critical": 3.0,
+          "action": 1.5,
+          "audience": 0.0,
+          "length": 1.0
+        }
+      },
+      {
+        "sentence_id": 11,
+        "text": "If you have questions, contact the Year 7 office before the visit.",
+        "word_count": 12,
+        "score": 7.9193,
+        "mandatory": false,
+        "breakdown": {
+          "keyword": 4.9193,
+          "position": 0.5,
+          "temporal": 0.0,
+          "critical": 0.0,
+          "action": 1.5,
+          "audience": 0.0,
+          "length": 1.0
+        }
+      }
+    ],
+    "candidate_scores": [
+      {
+        "sentence_id": 6,
+        "text": "Please return the signed permission slip to the school office by Wednesday 3 March 2027.",
+        "word_count": 15,
+        "score": 14.0,
+        "mandatory": true,
+        "breakdown": {
+          "keyword": 6.0,
+          "position": 0.0,
+          "temporal": 2.5,
+          "critical": 3.0,
+          "action": 1.5,
+          "audience": 0.0,
+          "length": 1.0
+        }
+      },
+      {
+        "sentence_id": 4,
+        "text": "Students must arrive at school by 7:45 am.",
+        "word_count": 9,
+        "score": 12.9193,
+        "mandatory": true,
+        "breakdown": {
+          "keyword": 4.9193,
+          "position": 0.0,
+          "temporal": 2.5,
+          "critical": 3.0,
+          "action": 1.5,
+          "audience": 0.0,
+          "length": 1.0
+        }
+      },
+      {
+        "sentence_id": 5,
+        "text": "The coach will leave at 8:00 am and return to school at approximately 4:30 pm.",
+        "word_count": 17,
+        "score": 12.6667,
+        "mandatory": true,
+        "breakdown": {
+          "keyword": 4.6667,
+          "position": 0.0,
+          "temporal": 2.5,
+          "critical": 3.0,
+          "action": 1.5,
+          "audience": 0.0,
+          "length": 1.0
+        }
+      },
+      {
+        "sentence_id": 7,
+        "text": "The visit costs £8, and payment must be made by Monday 1 March 2027.",
+        "word_count": 14,
+        "score": 12.1667,
+        "mandatory": true,
+        "breakdown": {
+          "keyword": 5.6667,
+          "position": 0.0,
+          "temporal": 2.5,
+          "critical": 3.0,
+          "action": 0.0,
+          "audience": 0.0,
+          "length": 1.0
+        }
+      },
+      {
+        "sentence_id": 3,
+        "text": "Our Year 7 science trip to the Northbridge Science Museum will take place on Friday 5 March 2027.",
+        "word_count": 18,
+        "score": 10.4348,
+        "mandatory": true,
+        "breakdown": {
+          "keyword": 6.9348,
+          "position": 0.0,
+          "temporal": 2.5,
+          "critical": 0.0,
+          "action": 0.0,
+          "audience": 0.0,
+          "length": 1.0
+        }
+      },
+      {
+        "sentence_id": 10,
+        "text": "Students must wear school uniform and comfortable shoes.",
+        "word_count": 8,
+        "score": 9.9907,
+        "mandatory": true,
+        "breakdown": {
+          "keyword": 4.4907,
+          "position": 0.0,
+          "temporal": 0.0,
+          "critical": 3.0,
+          "action": 1.5,
+          "audience": 0.0,
+          "length": 1.0
+        }
+      },
+      {
+        "sentence_id": 11,
+        "text": "If you have questions, contact the Year 7 office before the visit.",
+        "word_count": 12,
+        "score": 7.9193,
+        "mandatory": false,
+        "breakdown": {
+          "keyword": 4.9193,
+          "position": 0.5,
+          "temporal": 0.0,
+          "critical": 0.0,
+          "action": 1.5,
+          "audience": 0.0,
+          "length": 1.0
+        }
+      },
+      {
+        "sentence_id": 9,
+        "text": "Do not include nuts or peanut products in packed lunches.",
+        "word_count": 10,
+        "score": 7.182,
+        "mandatory": true,
+        "breakdown": {
+          "keyword": 3.182,
+          "position": 0.0,
+          "temporal": 0.0,
+          "critical": 3.0,
+          "action": 0.0,
+          "audience": 0.0,
+          "length": 1.0
+        }
+      },
+      {
+        "sentence_id": 2,
+        "text": "Dear parents and guardians of Year 7 students,",
+        "word_count": 8,
+        "score": 6.5,
+        "mandatory": false,
+        "breakdown": {
+          "keyword": 3.5,
+          "position": 1.0,
+          "temporal": 0.0,
+          "critical": 0.0,
+          "action": 0.0,
+          "audience": 1.0,
+          "length": 1.0
+        }
+      },
+      {
+        "sentence_id": 8,
+        "text": "Students should bring a packed lunch and a water bottle.",
+        "word_count": 10,
+        "score": 5.1833,
+        "mandatory": false,
+        "breakdown": {
+          "keyword": 2.6833,
+          "position": 0.0,
+          "temporal": 0.0,
+          "critical": 0.0,
+          "action": 1.5,
+          "audience": 0.0,
+          "length": 1.0
+        }
+      }
+    ]
+  },
+  "summary": {
+    "headline": "Year 7 Science Museum Visit",
+    "audience": [
+      "Year 7",
+      "parents",
+      "guardians",
+      "students"
+    ],
+    "sentences": [
+      {
+        "sentence_id": 3,
+        "text": "Our Year 7 science trip to the Northbridge Science Museum will take place on Friday 5 March 2027.",
+        "score": 10.4348,
+        "mandatory": true,
+        "manual": false
+      },
+      {
+        "sentence_id": 4,
+        "text": "Students must arrive at school by 7:45 am.",
+        "score": 12.9193,
+        "mandatory": true,
+        "manual": false
+      },
+      {
+        "sentence_id": 5,
+        "text": "The coach will leave at 8:00 am and return to school at approximately 4:30 pm.",
+        "score": 12.6667,
+        "mandatory": true,
+        "manual": false
+      },
+      {
+        "sentence_id": 6,
+        "text": "Please return the signed permission slip to the school office by Wednesday 3 March 2027.",
+        "score": 14.0,
+        "mandatory": true,
+        "manual": false
+      },
+      {
+        "sentence_id": 7,
+        "text": "The visit costs £8, and payment must be made by Monday 1 March 2027.",
+        "score": 12.1667,
+        "mandatory": true,
+        "manual": false
+      },
+      {
+        "sentence_id": 9,
+        "text": "Do not include nuts or peanut products in packed lunches.",
+        "score": 7.182,
+        "mandatory": true,
+        "manual": false
+      },
+      {
+        "sentence_id": 10,
+        "text": "Students must wear school uniform and comfortable shoes.",
+        "score": 9.9907,
+        "mandatory": true,
+        "manual": false
+      },
+      {
+        "sentence_id": 11,
+        "text": "If you have questions, contact the Year 7 office before the visit.",
+        "score": 7.9193,
+        "mandatory": false,
+        "manual": false
+      }
+    ],
+    "key_dates": [
+      "Friday 5 March 2027",
+      "7:45 am",
+      "8:00 am",
+      "4:30 pm",
+      "Wednesday 3 March 2027",
+      "Monday 1 March 2027"
+    ],
+    "critical_instructions": [
+      "Students must arrive at school by 7:45 am.",
+      "The coach will leave at 8:00 am and return to school at approximately 4:30 pm.",
+      "Please return the signed permission slip to the school office by Wednesday 3 March 2027.",
+      "The visit costs £8, and payment must be made by Monday 1 March 2027.",
+      "Do not include nuts or peanut products in packed lunches.",
+      "Students must wear school uniform and comfortable shoes."
+    ],
+    "actions": [
+      "Students must arrive at school by 7:45 am.",
+      "The coach will leave at 8:00 am and return to school at approximately 4:30 pm.",
+      "Please return the signed permission slip to the school office by Wednesday 3 March 2027.",
+      "Students should bring a packed lunch and a water bottle.",
+      "Students must wear school uniform and comfortable shoes.",
+      "If you have questions, contact the Year 7 office before the visit."
+    ],
+    "next_steps": [
+      "Please return the signed permission slip to the school office by Wednesday 3 March 2027."
+    ],
+    "word_count": 103,
+    "generator": "rule-based-extractive-v1",
+    "rendered": "Year 7 Science Museum Visit\n\nAudience: Year 7, parents, guardians, students\n\nSummary:\n- Our Year 7 science trip to the Northbridge Science Museum will take place on Friday 5 March 2027.\n- Students must arrive at school by 7:45 am.\n- The coach will leave at 8:00 am and return to school at approximately 4:30 pm.\n- Please return the signed permission slip to the school office by Wednesday 3 March 2027.\n- The visit costs £8, and payment must be made by Monday 1 March 2027.\n- Do not include nuts or peanut products in packed lunches.\n- Students must wear school uniform and comfortable shoes.\n- If you have questions, contact the Year 7 office before the visit.\n\nKey dates and times:\n- Friday 5 March 2027\n- 7:45 am\n- 8:00 am\n- 4:30 pm\n- Wednesday 3 March 2027\n- Monday 1 March 2027\n\nCritical instructions:\n- Students must arrive at school by 7:45 am.\n- The coach will leave at 8:00 am and return to school at approximately 4:30 pm.\n- Please return the signed permission slip to the school office by Wednesday 3 March 2027.\n- The visit costs £8, and payment must be made by Monday 1 March 2027.\n- Do not include nuts or peanut products in packed lunches.\n- Students must wear school uniform and comfortable shoes.\n\nActions:\n- Students must arrive at school by 7:45 am.\n- The coach will leave at 8:00 am and return to school at approximately 4:30 pm.\n- Please return the signed permission slip to the school office by Wednesday 3 March 2027.\n- Students should bring a packed lunch and a water bottle.\n- Students must wear school uniform and comfortable shoes.\n- If you have questions, contact the Year 7 office before the visit.\n\nNext step:\n- Please return the signed permission slip to the school office by Wednesday 3 March 2027.\n"
+  },
+  "checklist": {
+    "passed": true,
+    "quality_status": "pass",
+    "checks": [
+      {
+        "id": "audience",
+        "label": "Audience is clear",
+        "passed": true,
+        "required": true,
+        "detail": "Audience: Year 7, parents, guardians, students"
+      },
+      {
+        "id": "date",
+        "label": "All dates and times are preserved",
+        "passed": true,
+        "required": true,
+        "detail": "6 of 6 temporal mentions preserved."
+      },
+      {
+        "id": "action",
+        "label": "Action is clear",
+        "passed": true,
+        "required": true,
+        "detail": "At least one action is identified."
+      },
+      {
+        "id": "next_step",
+        "label": "Next step is clear",
+        "passed": true,
+        "required": true,
+        "detail": "A next step is included."
+      },
+      {
+        "id": "critical_instructions",
+        "label": "Critical instructions are preserved",
+        "passed": true,
+        "required": true,
+        "detail": "6 of 6 critical instructions preserved."
+      },
+      {
+        "id": "specific_dates",
+        "label": "Dates are specific",
+        "passed": true,
+        "required": true,
+        "detail": "All date references are calendar dates."
+      },
+      {
+        "id": "extractive",
+        "label": "Baseline stays extractive",
+        "passed": true,
+        "required": false,
+        "detail": "Summary sentences are copied from the notice."
+      },
+      {
+        "id": "length",
+        "label": "Baseline length is controlled",
+        "passed": true,
+        "required": false,
+        "detail": "103 summary words; limit 220."
+      }
+    ],
+    "missing_details": [],
+    "summary_word_count": 103
+  },
+  "quality_status": "pass",
+  "manual_override": false,
+  "edits": []
+}

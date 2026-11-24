@@ -1,0 +1,27 @@
+{
+  "version": "1.0",
+  "input": {
+    "max_characters": 20000,
+    "min_characters": 40,
+    "allowed_extensions": [
+      ".txt",
+      ".md"
+    ]
+  },
+  "summarization": {
+    "max_sentences": 8,
+    "max_words": 220,
+    "min_sentence_words": 4
+  },
+  "checklist": {
+    "require_audience": true,
+    "require_date": true,
+    "require_action": true,
+    "require_next_step": true,
+    "require_specific_dates": true
+  },
+  "storage": {
+    "results_dir": "var/results",
+    "failure_log": "var/logs/failures.jsonl"
+  }
+}
